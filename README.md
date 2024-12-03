@@ -8,13 +8,12 @@ Fil in Tasks here
 - [ ] Eviction Lab - look at what is available, and grab data pertaining to our project
 - [ ] Zillow/Airbnb - 
 - [ ] Reddit - Collect comments from r/washingtondc pertaining to sentiment analysis
-    - improve querys
+    - [ ] improve querys
 ### Model Creation
+- [ ] What kind of model do we want? Regression, prediction, etc?
 - [ ]
-- [ ]
-### Presentation
+### Presentation - Dec 10th
 - [ ] 
 - [ ] 
-### Paper
-- [ ] 
+### Paper - Dec 20th
 - [ ] 

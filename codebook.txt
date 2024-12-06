@@ -1,0 +1,10 @@
+code book 
+
+subreddit 
+0 - dcforrent
+1 - washdc
+2 - washingtondc
+
+type 
+0 - thread 
+1 - comment 

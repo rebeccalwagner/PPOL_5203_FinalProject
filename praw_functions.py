@@ -56,6 +56,7 @@ def get_comments(id_list:list, reddit):
 
             comment_dict = {
                 "submission_id": id,
+                "comment_id": comment.id,
                 "author": comment.author.name if comment.author else None,
                 "body": comment.body,
                 "score": comment.score,
@@ -66,6 +67,7 @@ def get_comments(id_list:list, reddit):
             comments_list.append(comment_dict)
 
     df = pd.DataFrame(comments_list)
+    df.set_index("comment_id", inplace=True)
 
     return df
 

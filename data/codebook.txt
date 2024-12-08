@@ -1,0 +1,14 @@
+code book 
+
+code
+0 - not safety related
+1 - safety related
+
+subreddit 
+0 - dcforrent
+1 - washdc
+2 - washingtondc
+
+type 
+0 - thread 
+1 - comment 

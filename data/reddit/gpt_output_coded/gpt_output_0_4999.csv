@@ -1,4 +1,4 @@
-comment_id,submission_id,author,body,score,year,month,subreddit,type,gpt_score
+comment_id,submission_id,author,body,score,year,month,subreddit,type,gpt_output
 isl1exn,y57cbw,eeek0711,Or Cleveland Park in DC,4,2022,10,0,1,0
 isl1dig,y57cbw,eeek0711,Takoma Park MD,3,2022,10,0,1,0
 islh5rt,y57cbw,nonmimeticform,Baltimore,3,2022,10,0,1,0
@@ -119,9 +119,12 @@ ibfeju2,v6dd5a,Hopeful-Mango-4307,"425 Mass, Meridian at Mount Vernon Triangle, 
 ibf4in0,v6dd5a,Competitive_Green_23,I have a house by there for rent minus 1 bathroom hmu,0,2022,6,0,1,0
 ibj1wti,v6dd5a,Rozi9,"If you happen to rent 3 bedroom, please consider me as the thrid one, if this suits you too: 
 
-I am a professional woman who works full-time and studying at GW as well.  I'm searching for a place to live, whether it's a one-bedroom apartment, studio, or more than one-bedroom, with female tenants, in DC or neighboring areas  
-From July/August until March 2023, both starting and ending dates are flexible.  
-I'm a responsible, easygoing, and tidy person.  
+I am a professional woman who works full-time and studying at GW as well.  I'm searching for a place to live, whether it's a one-bedroom apartment, studio, or more than one-bedroom, with female tenants, in DC or neighboring areas
+  
+From July/August until March 2023, both starting and ending dates are flexible.
+  
+I'm a responsible, easygoing, and tidy person.
+  
 Please get in touch with me as soon as possible if you know anything about this. Thank you in advance.",1,2022,6,0,1,0
 ibpkppr,v6dd5a,crystalsnow2796,"Thank you for your suggestions, unfortunately I checked out all of these but nothing is available during the first week of July and within my budget.",1,2022,6,0,1,0
 ibpknp9,v6dd5a,crystalsnow2796,"Thank you so much, based on availability and cost it seems like Station House should work out (fingers crossed). Would be very grateful if you could confirm whether it is in a good and safe area? Feel free to also share any other reviews on Station House.",1,2022,6,0,1,"1  

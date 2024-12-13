@@ -1,8 +1,3 @@
-For Replication:
-1. Run scraped reddit files through `run_gpt_api` to code for safety relevance and sentiment analysis in small batches. 
-2. Combine output files using `combine_coded_data`
-3. Clean the resulting single file using `clean_gpt_output`
-
  File name    | Use case |
 | -------- | ------- |
 | clean_gpt_output | drop all non relevent data from the combined csv output file |

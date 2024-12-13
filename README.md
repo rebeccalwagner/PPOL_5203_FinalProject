@@ -20,11 +20,22 @@ Read original proposal `Data_Science_Final_Proposal.pdf`
 
 All reddit data regarding public safety sentiment was scraped from three subreddits: r/washingtondc, r/wasdc, aand r/DCforRent. Files for scraping and cleaning this data can be found in `files/reddit_scraping`
 
-1. Scrape Reddit data using the three `get_reddit` notebooks. Each outputs two csv files, one for threads and one for comments
-These notebooks pull from `praw_functions.py`. 
+1. Scrape Reddit data using the three `get_reddit` notebooks. Functions are pulled from `praw_functions.py`. Each outputs two csv files, one for threads and one for comments. 
 
 2. Clean & combine scraped reddit csv files using `cleaning_reddit_data.ipynb`
 
 3. Search for and drop any commments that are obviously not safety related using `remove_non_starters.ipynb`
+
+### GPT Classification and Sentiment Analysis
+
+Cleaned and scraped Reddit data was classified as either safety related or not safety related. Sentiment analysis was preformed on all safety related comments. Files used to classify reddit data and preform sentiment analysis through ChatGPT API can be found in `files/gpt`
+
+1. Run scraped reddit files through `run_gpt_api` to code for safety relevance and sentiment analysis in small batches. 
+
+2. Combine output files using `combine_coded_data`
+
+3. Clean the resulting single file using `clean_gpt_output`
+
+### Analysis 
 
 

@@ -23,7 +23,7 @@ of this relationship.
 | data | zillow | contains all data imported from Zillow |
 | figures | | contains figures produced for final analysis |
 
-## Project Walkthrough 
+## Project Walkthrough - See individual folder ReadMe files for detailed explaination of code
 
 ### Reddit Data Collection 
 

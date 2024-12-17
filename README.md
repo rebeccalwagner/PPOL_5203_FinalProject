@@ -54,6 +54,6 @@ Cleaned and scraped Reddit data was classified as either safety related or not s
 3. Map Zip codes, neighborhood clusters, and neighborhoods using `spacial matching csv`. Requires Zillow shape files. Outputs geo matching csv
 
 4. Create Vizualizations and Regression Model with `lag_model`, `open_data_dc_viz`, `sentiment_figures`, etc. 
-5. 
+
 
 

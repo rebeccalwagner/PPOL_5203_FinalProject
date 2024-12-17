@@ -21,7 +21,7 @@ of this relationship.
 | data | open_data_dc | contains data imported from OpenDataDc |
 | data | reddit | contains all data scraped from reddit |
 | data | zillow | contains all data imported from Zillow |
-| Figures | | contains figures produced for final analysis |
+| figures | | contains figures produced for final analysis |
 
 ## Project Walkthrough 
 

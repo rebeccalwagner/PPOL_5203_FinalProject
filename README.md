@@ -47,4 +47,13 @@ Cleaned and scraped Reddit data was classified as either safety related or not s
 
 ### Analysis 
 
+1. Map crime data into neighborhoods using `add_crime_neighborhoods` notebook. Requries shape files for neighborhoods from Zillow and Open Data DC Crime states. Outputs crime data with neighborhoods csv
+
+2. Extract neighborhoods from Reddit data using `neighborhood matching` notebook. Requries cleaned sentiment data and all threads data. Outputs sentiment with neighborhoods csv
+
+3. Map Zip codes, neighborhood clusters, and neighborhoods using `spacial matching csv`. Requires Zillow shape files. Outputs geo matching csv
+
+4. Create Vizualizations and Regression Model with `lag_model`, `open_data_dc_viz`, `sentiment_figures`, etc. 
+5. 
+
 

@@ -1,6 +1,15 @@
-# PPOL_5203_FinalProject
+## Reddit vs. Reality: Online Perceptions of Neighborhood Safety in Washington, D.C
+### Rebecca Wagner & Elizabeth Bagely, McCourt School of Public Policy 
 
-Read original proposal `Data_Science_Final_Proposal.pdf`
+Cities all over the United States are battling the process of gentrification within their neighborhoods. This process causes both
+housing prices to increase, and crime rates to decrease. Additionally, public perceptions of crime have generally increased in
+many cities, despite crime rates falling nationwide. In this project, we attempt to better understand the relationship between
+perceptions of crime, true reported rates of crime, and housing markets, in an effort to untangle the many factors at play in
+gentrification. To do so, we focus specifically on the city of Washington, D.C, and utilize public datasets on crime rates and
+housing prices. We also collect our own dataset from social media platform Reddit through its API to create a quantification of
+public safety sentiment. We ultimately find that trends in perceived safety appear to lag behind changes in true crime rates, and
+that online safety sentiments and housing prices appear to be correlated, though more analysis is needed to parse the nature
+of this relationship.
 
 ## Repo Organization
 
@@ -12,9 +21,9 @@ Read original proposal `Data_Science_Final_Proposal.pdf`
 | data | open_data_dc | contains data imported from OpenDataDc |
 | data | reddit | contains all data scraped from reddit |
 | data | zillow | contains all data imported from Zillow |
-| Figures | | contains figures produced for final analysis |
+| figures | | contains figures produced for final analysis |
 
-## Project Walkthrough 
+## Project Walkthrough - See individual folder ReadMe files for detailed explaination of code
 
 ### Reddit Data Collection 
 
@@ -37,5 +46,14 @@ Cleaned and scraped Reddit data was classified as either safety related or not s
 3. Clean the resulting single file using `clean_gpt_output`
 
 ### Analysis 
+
+1. Map crime data into neighborhoods using `add_crime_neighborhoods` notebook. Requries shape files for neighborhoods from Zillow and Open Data DC Crime states. Outputs crime data with neighborhoods csv
+
+2. Extract neighborhoods from Reddit data using `neighborhood matching` notebook. Requries cleaned sentiment data and all threads data. Outputs sentiment with neighborhoods csv
+
+3. Map Zip codes, neighborhood clusters, and neighborhoods using `spacial matching csv`. Requires Zillow shape files. Outputs geo matching csv
+
+4. Create Vizualizations and Regression Model with `lag_model`, `open_data_dc_viz`, `sentiment_figures`, etc. 
+
 
 
